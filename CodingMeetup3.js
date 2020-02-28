@@ -18,9 +18,6 @@
 // The input array will always be valid and formatted as in the example above.
 
 
-
-
-
 function isRubyComing(list) {
   for(var i=0;i<list.length;i++){
     if(list[i].language.includes('Ruby')) return true
